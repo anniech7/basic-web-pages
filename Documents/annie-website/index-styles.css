@@ -1,0 +1,5 @@
+em, strong {
+  background-color: #B2D6FF;    /* Light blue */
+  display: inline;             /* This is the default for em and strong */
+
+}

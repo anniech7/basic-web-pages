@@ -1,0 +1,74 @@
+body {
+  margin-left: 400px;
+  margin-right: 400px;;
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+p {
+  font-family: arial;
+  font-size: 25px;
+}
+.reivews ul {
+  font-family: arial;
+  font-size: 25px;
+  list-style-type: none;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  padding: inherit;
+}
+.photos {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 30vw);
+  grid-gap: 15px;
+  margin: 20px;
+  justify-content: center;
+}
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: normal;
+  padding: 10px;
+  text-align: left;
+}
+.intro {
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
+}
+.pops{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 20vw);
+  grid-gap: 15px;
+  margin: 20px;
+  justify-content: center;
+  align-content: center;
+}
+.pops img {
+    width: 50%;
+
+}
+.reivews {
+  list-style-type: none;
+}
+#genQuote {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+#myData {
+  display: flex;
+  justify-content: center;
+}
